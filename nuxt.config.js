@@ -1,5 +1,5 @@
 /* eslint-disable */
-// const StyleLintPlugin = require('stylelint-webpack-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 const pugLinter = require('./.pug-lintrc.json');
 /* eslint-enable */
 
@@ -33,6 +33,8 @@ module.exports = {
     extend(config, context) {
       // Run ESLint on save
       if (context.isDev && context.isClient) {
+        config.plugins.push(new StyleLintPlugin());
+
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,

@@ -36,6 +36,9 @@
     "pug": "^2.0.4",
     "pug-lint-loader": "0.0.4",
     "pug-plain-loader": "^1.0.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-webpack-plugin": "^0.10.5",
     "svg-inline-loader": "^0.8.0"
   }
 }
