@@ -1,0 +1,9 @@
+{
+    "disallowClassAttributeWithStaticValue": true,
+    "disallowIdAttributeWithStaticValue": true,
+    "disallowClassLiteralsBeforeAttributes": true,
+    "disallowIdLiteralsBeforeAttributes": true,
+    "disallowDuplicateAttributes": true,
+    "disallowHtmlText": true,
+    "disallowMultipleLineBreaks": true
+}
