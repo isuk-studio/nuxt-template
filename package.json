@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^5.2.3",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.8.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-lint-loader": "0.0.4",
     "pug-plain-loader": "^1.0.0",
     "stylelint": "^10.1.0",
